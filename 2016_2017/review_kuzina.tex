@@ -1,0 +1,150 @@
+\documentclass[a4paper, 12pt]{article}
+
+
+\usepackage{mathrsfs}
+
+\usepackage{amscd}
+\usepackage[paper=a4paper, top=20.0mm, bottom=20.0mm, left=20.0mm, right=20.0mm,
+includefoot]{geometry}
+
+\usepackage{ragged2e} % центрирование текста
+
+\usepackage{tikz} % картинки в tikz
+\usepackage{microtype} % свешивание пунктуации
+
+\usepackage{floatrow} % для выравнивания рисунка и подписи
+\usepackage{caption} % для пустых подписей
+
+\usepackage{array} % для столбцов фиксированной ширины
+
+\usepackage{indentfirst} % отступ в первом параграфе
+
+\usepackage{sectsty} % для центрирования названий частей
+\allsectionsfont{\centering}
+
+\usepackage{amsmath, amsfonts} % куча стандартных математических плюшек
+
+\usepackage{comment} % для комментариев
+
+\usepackage{multicol} % текст в несколько колонок
+
+\usepackage{lastpage} % чтобы узнать номер последней страницы
+
+\usepackage{enumitem} % дополнительные плюшки для списков
+%  например \begin{enumerate}[resume] позволяет продолжить нумерацию в новом списке
+
+\usepackage{url} % для вставки интернет-ссылок
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+\setmainlanguage{russian}
+\setotherlanguages{english}
+
+% download "Linux Libertine" fonts:
+% http://www.linuxlibertine.org/index.php?id=91&L=1
+\setmainfont{Linux Libertine O} % or Helvetica, Arial, Cambria
+% why do we need \newfontfamily:
+% http://tex.stackexchange.com/questions/91507/
+\newfontfamily{\cyrillicfonttt}{Linux Libertine O}
+
+\AddEnumerateCounter{\asbuk}{\russian@alph}{щ} % для списков с русскими буквами
+\setlist[enumerate, 2]{label=\asbuk*),ref=\asbuk*}
+
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\E}{\mathbb{E}}
+
+\let\P\relax
+\DeclareMathOperator{\P}{\mathbb{P}}
+\def\cN{\mathcal{N}}
+
+\usepackage{fancyhdr} % весёлые колонтитулы
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+
+
+\begin{center}
+{\small Федеральное государственное автономное образовательное учреждение\\ 
+высшего профессионального образования «Национальный исследовательский\\ 
+университет «Высшая школа экономики».}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+\textbf{Отзыв на выпускную квалификационную работу}
+\end{center}
+
+\vspace{0.4cm}
+
+Студент ОП «Экономика»: Кузина Анна Вадимовна
+
+\vspace{0.4cm}
+
+Научный руководитель: Демешев Борис Борисович
+
+\vspace{0.4cm}
+
+Тема: Сравнение прогнозной силы Байесовской векторной авторегрессии с
+одномерными моделями временных рядов
+
+\vspace{1cm}
+
+Работа Анны посвящена сравнению точности различных алгоритмов
+прогнозирования временных рядов.
+
+Анна сравнивает современные байесовские векторные модели авторегрессии с
+меняющимися во времени коэффициентами (TVP-BVAR) и более устоявшиеся
+модели, оцениваемые методом максимального правдоподобия: ARIMA,
+экспоненциальное сглаживание и тета-метод.
+
+С одной стороны, модели TVP-BVAR выглядят многообещающими из-за
+возможности учесть меняющееся взаимодействие между рядами. С другой
+стороны, вычислительная сложность TVP-BVAR резко растёт с ростом
+количества рядов. Даже десятки рядов могут сделать время вычисления
+непомерно большим. И пока ещё нет приемлемо быстро работающих процедур
+автоматического подбора априорных параметров.
+
+Для решения проблемы использования большого количества рядов в TVP-BVAR
+модели Анна кластеризует ряды на группы и оценивает TVP-BVAR модели по
+каждой группе рядов. Для кластеризации Анна использует нелинейным
+алгоритм t-SNE. Это решение является новым и, вероятно, перспективным
+при настоящих вычислительных мощностях. Было бы очень интересно
+построить аналог FAVAR моделей с помощью t-SNE.
+
+Из-за недостатка времени Анна не сравнивает различные априорные
+распределения для TVP-BVAR, что, конечно, хотелось бы реализовать.
+
+Для ARIMA, экспоненциального сглаживания и тета-метода используется
+полностью автоматический выбор спецификации. Модели корректно
+сравниваются по прогнозной силе вне обучающей выборки. Сравнивая
+результаты двух подходов, многомерного байесовского и одномерного
+классического Анна приходит к смешанным результатам. Примерно в половине
+случаев лидирует байесовский векторный подход.
+
+Анна хорошо разобралась в рассматриваемых моделях и успешно реализовала
+сравнение алгоритмов в среде R.
+
+Работа Анны заслуживает отличной оценки.
+
+\vspace{1cm}
+
+15 мая 2017
+
+Демешев Борис Борисович
+
+
+
+\end{document}
