@@ -1,0 +1,24 @@
+Implications of machine learning in economics
+Rostislav Pranitskiy
+
+
+NATURAL LANGUAGE PROCESSING WITH DEEP LEARNING
+Aydar Iskhakov
+
+
+REINFORCEMENT LEARNING FOR STOCK TRADING
+Konstantin Semianov
+
+Bayesian Approach to Evaluation of Individuals` Preference
+Artem Kondrashov
+
+
+DARK WEB MARKET ANALYSIS
+Ivan KOLESNIKOV
+
+
+Анализ временных рядов: Базовый алгоритм SSA
+Данила Укадер
+
+Предсказание отклонения авиарейсов от расписания
+Людмила Горкун-Воевода
