@@ -1,0 +1,145 @@
+\documentclass[a4paper, 12pt]{article}
+
+
+\usepackage{mathrsfs}
+
+\usepackage{amscd}
+\usepackage[paper=a4paper, top=20.0mm, bottom=20.0mm, left=20.0mm, right=20.0mm,
+includefoot]{geometry}
+
+\usepackage{ragged2e} % центрирование текста
+
+\usepackage{tikz} % картинки в tikz
+\usepackage{microtype} % свешивание пунктуации
+
+\usepackage{floatrow} % для выравнивания рисунка и подписи
+\usepackage{caption} % для пустых подписей
+
+\usepackage{array} % для столбцов фиксированной ширины
+
+\usepackage{indentfirst} % отступ в первом параграфе
+
+\usepackage{sectsty} % для центрирования названий частей
+\allsectionsfont{\centering}
+
+\usepackage{amsmath, amsfonts} % куча стандартных математических плюшек
+
+\usepackage{comment} % для комментариев
+
+\usepackage{multicol} % текст в несколько колонок
+
+\usepackage{lastpage} % чтобы узнать номер последней страницы
+
+\usepackage{enumitem} % дополнительные плюшки для списков
+%  например \begin{enumerate}[resume] позволяет продолжить нумерацию в новом списке
+
+\usepackage{url} % для вставки интернет-ссылок
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+\setmainlanguage{russian}
+\setotherlanguages{english}
+
+% download "Linux Libertine" fonts:
+% http://www.linuxlibertine.org/index.php?id=91&L=1
+\setmainfont{Linux Libertine O} % or Helvetica, Arial, Cambria
+% why do we need \newfontfamily:
+% http://tex.stackexchange.com/questions/91507/
+\newfontfamily{\cyrillicfonttt}{Linux Libertine O}
+
+\AddEnumerateCounter{\asbuk}{\russian@alph}{щ} % для списков с русскими буквами
+\setlist[enumerate, 2]{label=\asbuk*),ref=\asbuk*}
+
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\E}{\mathbb{E}}
+
+\let\P\relax
+\DeclareMathOperator{\P}{\mathbb{P}}
+\def\cN{\mathcal{N}}
+
+\usepackage{fancyhdr} % весёлые колонтитулы
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+
+
+\begin{center}
+{\small Федеральное государственное автономное образовательное учреждение\\ 
+высшего профессионального образования «Национальный исследовательский\\ 
+университет «Высшая школа экономики».}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+\textbf{Отзыв на выпускную квалификационную работу}
+\end{center}
+
+\vspace{0.4cm}
+
+Студент ОП «Экономика»: Стерхов Сергей Игоревич
+
+\vspace{0.4cm}
+
+Научный руководитель: Демешев Борис Борисович
+
+\vspace{0.4cm}
+
+Тема: Построение модели прогноза LTV для условно бесплатного игрового проекта
+
+\vspace{0.4cm}
+
+Работа Сергея посвящена решению практической задачи. Основная задача ---
+спрогнозировать величину LTV, сколько денег потратят пользователи в
+игровом онлайн проекте. Работа построена на искусствено зашумленных
+реальных данных.
+
+В работе совсем нет графиков, хотя именно с этой задачи началось наше
+обсуждение работы осенью. Это существенный минус.
+
+Вторым существенным недостатком работы является обилие нереализованных
+идей. Об этих идеях упоминает и сам Сергей. Можно было: отдельно
+моделировать поведение игроков, тратящих крупные суммы в игре;
+исследовать модель, прогнозирующую расходы не отдельных игроков, а
+кластеров; учитывать признаки, связанные с поведением игрока в игре;
+сравнить прогнозную силу исследуемого алгоритма с другими стандартными
+алгоритмами прогнозирования LTV и так далее.
+
+В работе есть и мелкие небрежности. Многие числа приводится с излишним
+количеством знаков после запятой. Сначала концепция LTV излагается в
+непрерывном времени, а затем происходит резкий переход в дискретное
+время без комментариев.
+
+Работа содержит небольшой но вполне релевантный обзор литературы о
+моделировании LTV.
+
+Большим плюсом ВКР является то, что Сергей решает реальную
+бизнес-задачу. Много времени в таких задачах уходит на чистку данных.
+Сергей подробно описывает, как проводится чистка данных.
+
+Трудно оценивать работу студента не родного факультета, так как не с чем
+сравнить. Если бы ВКР Сергея защищалась на факультете экономики, то в
+зависимости от комиссии и презентации получила бы от удовлетворительно
+до хорошо.
+
+\vspace{0.4cm}
+
+05 июня 2017
+
+Демешев Борис Борисович
+
+
+
+\end{document}
