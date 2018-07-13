@@ -21,6 +21,10 @@
 
 Настя Волкова, [Прогнозирование рядов с помощью SSA](https://github.com/Anastasia4111/SSA)
 
+Аким Цвигун, [Прогнозирование рядов с LSTM](https://github.com/Aktsvigun/term_paper)
+
+Михаил Пьянков, [Прогнозирование рядов с prophet](https://github.com/MikhailPyankov/Course-paper)
+
 
 ## 2016-2017
 
