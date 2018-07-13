@@ -25,6 +25,8 @@
 
 Михаил Пьянков, [Прогнозирование рядов с prophet](https://github.com/MikhailPyankov/Course-paper)
 
+Аня Кожевина, [Прогнозирование с помощью BVAR](https://github.com/akozhevina/kursach)
+
 
 ## 2016-2017
 
