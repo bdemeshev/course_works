@@ -11,11 +11,11 @@
 
 Оля Гнилова, [How Gauss-Markov and Pythagoras met: Geometry in Econometrics](https://github.com/olyagnilova/gauss-markov-pythagoras)
 
-Пётр Гарминдер, [LSTM для прогнозирования макроэкономических показателей](https://github.com/PetrGarm/coursework)
+Пётр Гармидер, [LSTM для прогнозирования макроэкономических показателей](https://github.com/PetrGarm/coursework)
 
 Зехов Матвей, [LSTM для прогнозирования макроэкономических рядов](https://github.com/Pyatachokk/Course_work)
 
-Маша Сапельникова, [Рекуррентный нейронные сети для прогнозирования макроэкономических показателей](https://github.com/maschasap/rnn)
+Маша Сапельникова, [Рекуррентные нейронные сети для прогнозирования макроэкономических показателей](https://github.com/maschasap/rnn)
 
 Вика Шрамова, [Модификация тета-метода](https://github.com/VictoriaShramova/diploma)
 
@@ -45,7 +45,7 @@
 
 Эдуард Аюнц, [Моделирование процентных ставок](https://github.com/bdemeshev/course_works/tree/master/2015_2016/2015_2b_ayunts_eduard_interest_rates)
 
-Иван Баранов, [Отмены заказов в яндекс такси](https://github.com/bdemeshev/course_works/tree/master/2015_2016/2015_3b_baranov_ivan_yandex_taxi)
+Иван Барабанов, [Отмены заказов в яндекс такси](https://github.com/bdemeshev/course_works/tree/master/2015_2016/2015_3b_baranov_ivan_yandex_taxi)
 
 Полина Деткова, [Модель MIDAS](https://github.com/bdemeshev/course_works/tree/master/2015_2016/2015_3b_detkova_polina_midas)
 
