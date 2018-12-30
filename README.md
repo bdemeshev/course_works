@@ -36,7 +36,8 @@
 
 * Построить визуализацию, аналогичную https://www.r-bloggers.com/french-mortality-poster/ по России (там есть ссылка на данные с 1950х)
 
-*
+* Плакат про энтропию, [colah.github.io](http://colah.github.io/posts/2015-09-Visual-Information/)
+
 
 
 
