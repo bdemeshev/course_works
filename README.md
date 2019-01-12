@@ -64,13 +64,13 @@
 Примеры ближе к России. Например, [quandl](quandl.com), [imf](https://github.com/christophergandrud/imfr), [finam](https://quanttools.bitbucket.io/_site/get_started.html) и прочее, и прочее... Слишком много источников? Разбить на макро и финансы, условно?
 
 
+* Поучаствовать в произвольном конкурсе на kaggle.com. По итогам — плакат:
+описание данных, описание подхода к решению задачи. С ошибками и тупиковыми ветвями.
+
+* Дожать rexamsconvertor до пакета: [раз](https://github.com/V-Marco/rexamsconverter) и [два](https://github.com/bdemeshev/rexamsconverter).
 
 
-
-
-
-
-
+* Предложить идею проекта или курсовой можно [кликнув issue](https://github.com/bdemeshev/course_works/issues)
 
 
 
