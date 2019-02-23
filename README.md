@@ -46,7 +46,7 @@
 
 * Общая идея: облегчение доступа к некоторому набору данных.
 
-* Плакат про данные RLMS + развитие пакета [rlms](https://github.com/bdemeshev/rlms). На плакате — рассказ про данные, пример загрузки, решение задач в жанре «зная, как респондент ответил на вопрос в прошлом году, присвоить переменной текущего года какое-то значение».
+* Плакат про данные RLMS + развитие пакета [rlms](https://github.com/bdemeshev/rlms). На плакате — рассказ про данные, пример загрузки, решение задач в жанре «зная, как респондент ответил на вопрос в прошлом году, присвоить переменной текущего года какое-то значение». Подвязка переменных с родственниками и прочие вкусности.
 
 * Развитие и публикацие на CRAN пакета для скачивания [данных с сайта ЦБ](https://github.com/bdemeshev/cbr).
 
@@ -70,8 +70,23 @@
 * Дожать rexamsconvertor до пакета: [раз](https://github.com/V-Marco/rexamsconverter) и [два](https://github.com/bdemeshev/rexamsconverter).
 
 
+* Плакат про метод Крофтона, [Crofton differential equation](https://www.jstor.org/stable/2589434).
+
+* Плакат про вывод нормального распределения из предпосылок по мотивам [Jaynes](http://www-biba.inrialpes.fr/Jaynes/cc07s.pdf)
+
+* Плакат про геометрию распределений связанных с проекцией нормального вектора
+
+* Плакат про распределения, связанные с Пуассоновским потоком
+
+* Хорошая методичка с плакатом про VECM. Разобрать 5 случаев, особенность критических значений `urca`,
+вспомогательная функция для задания ограничений. Сравнение stata/eviews/gretl/tsDyn.
+
+
 * Предложить идею проекта или курсовой можно [кликнув issue](https://github.com/bdemeshev/course_works/issues)
 
+
+
+## 2018-2019
 
 
 
@@ -108,6 +123,9 @@
 
 Артём Кондрашов, [Моделирование в STAN](https://github.com/bdemeshev/course_works/tree/master/2016_2017/kondrashov_stan)
 
+Мира Федотова, [Выявление индивидуальных предпочтений с помощью Байесовской иерархической мультиномиальной логит модели](https://github.com/bdemeshev/course_works/tree/master/2016_2017/4b_fedorova_mira_preferences.pdf)
+
+
 
 ## 2015-2016
 
@@ -119,7 +137,7 @@
 
 Полина Деткова, [Модель MIDAS](https://github.com/bdemeshev/course_works/tree/master/2015_2016/2015_3b_detkova_polina_midas)
 
-Мира Федотова, [На Лабутенах и с офигетельной вкр](https://github.com/bdemeshev/course_works/tree/master/2015_2016/2015_3b_fedotova_mira_louboutin)
+Мира Федотова, [На Лабутенах и с офигетельной курсовой](https://github.com/bdemeshev/course_works/tree/master/2015_2016/2015_3b_fedotova_mira_louboutin)
 
 Аня Кузина, [Модель MIDAS](https://github.com/bdemeshev/course_works/tree/master/2015_2016/2015_3b_kuzina_anna_midas)
 
