@@ -7,7 +7,7 @@
 
 ## [Идеи проектов и курсовых](https://github.com/bdemeshev/course_works/issues)
 
-* Предложить идею проекта или курсовой можно [кликнув issue](https://github.com/bdemeshev/course_works/issues)
+* Предложить идею проекта или курсовой можно [кликнув issue](https://github.com/bdemeshev/course_works/issues/new)
 
 
 
